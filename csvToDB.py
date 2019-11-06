@@ -20,4 +20,4 @@ for row in f:
     print('project_name : ' + project_path)
     pathToTestSmells[project_path] = testSmellArray
 
-print(pathToTestSmells['360-Innovations_VaadinSmartGWT\\VaadinSmartGWT\\org.vaadin.smartgwt\\src\\test\\java\\org\\vaadin\\smartgwt\\server\\form\\fields\\FormItemIconTest.java'])
+# print(pathToTestSmells['360-Innovations_VaadinSmartGWT\\VaadinSmartGWT\\org.vaadin.smartgwt\\src\\test\\java\\org\\vaadin\\smartgwt\\server\\form\\fields\\FormItemIconTest.java'])
