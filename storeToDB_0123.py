@@ -1,4 +1,4 @@
-import logging.config
+lsimport logging.config
 from ast.ast_processor_Production import AstProcessorProduction
 from ast.ast_processor_Production_line import AstProcessorProductionLine
 from ast.ast_processor_Test_line import AstProcessorTestLine
@@ -126,7 +126,6 @@ if __name__ == '__main__':
         # print(testSmellArray)
         pathToTestSmells[project_path] = testSmellArray
     print(pathToTestSmells)
-    # print(pathToTestSmells['236371_ewolf-webgui/ewolf-webgui/src/il/technion/ewolf/http/HttpConnector.java'])
 
     for project_data in data_set:
         project_folder = project_data[project_data.rfind("\\") + 1:]
