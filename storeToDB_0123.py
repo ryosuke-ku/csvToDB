@@ -1,4 +1,4 @@
-lsimport logging.config
+import logging.config
 from ast.ast_processor_Production import AstProcessorProduction
 from ast.ast_processor_Production_line import AstProcessorProductionLine
 from ast.ast_processor_Test_line import AstProcessorTestLine
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     num_FileNotFoundError = 0
 
     clint = MongoClient()
-    db = clint['testMapList_0123']
+    db = clint['testMapList_utility_0123']
 
     data_set = glob.glob('D:\\ryosuke-ku\\data_set\\Git_20161108\\' + project + '\\*')
 
@@ -262,7 +262,7 @@ if __name__ == '__main__':
                                     'Magic Number Test':Magic_Number_Test,
                                     'Dependent Test':Dependent_Test,
                                 }
-                                db.mappingCollection_0123.insert_one(post)
+                                db.mappingCollection_utility_0123.insert_one(post)
 
 
                         if nort == len(Productionmethods_list):
