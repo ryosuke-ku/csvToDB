@@ -106,7 +106,7 @@ if __name__ == '__main__':
     num_FileNotFoundError = 0
 
     clint = MongoClient()
-    db = clint['testMapList_utility']
+    db = clint['testMapList_utility_0123']
 
     data_set = glob.glob('D:\\ryosuke-ku\\data_set\\Git_20161108\\' + project + '\\*')
 
@@ -263,7 +263,7 @@ if __name__ == '__main__':
                                     'Magic Number Test':Magic_Number_Test,
                                     'Dependent Test':Dependent_Test,
                                 }
-                                db.mappingCollection_utility.insert_one(post)
+                                db.mappingCollection_utility_0123.insert_one(post)
 
 
                         if nort == len(Productionmethods_list):
